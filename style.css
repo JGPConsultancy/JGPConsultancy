@@ -672,6 +672,14 @@ footer {
         gap: 1rem;
     }
 
+    .nav-icon {
+        background-color: #ffffff;
+    }
+    .nav-icon::before,
+    .nav-icon::after {
+        background-color: #ffffff;
+    }
+
 }
 
 /* DARK THEME */
