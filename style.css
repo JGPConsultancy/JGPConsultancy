@@ -9,7 +9,7 @@ html {
 
 html body {
     /* White background, black text for a crisp, clean look */
-    background-color: #f8e5e5f8;
+    background-color: #FFF2E7 !important;
     color: #000000;
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 1.2rem;
@@ -75,7 +75,7 @@ html body {
 }
 
 .main-title {
-    font-weight: normal;
+    font-weight:bold;
     line-height: normal;
     font-size: 1.5rem;
     color: #000000;
@@ -112,14 +112,14 @@ html body {
 /* Background colors */
 /* Instead of pink, we use a subtle light gray or white for highlight sections */
 .baby-pink {
-    background-color: #f7f7f7; /* light gray */
+    background-color: #ffffff; /* light gray */
     margin: 20px auto;
     padding: 20px;
     text-align: center;
 }
 
 .baby-pink-light {
-    background-color: #fafafa; /* even lighter gray */
+    background-color: #ffffff; /* even lighter gray */
     margin: 20px auto;
     padding: 20px;
     text-align: center;
@@ -209,6 +209,10 @@ html body {
 
 .padding-left {
     padding-left: 20px;
+}
+
+.padding-list-1 {
+    padding-top: 6px;
 }
 
 .margin-auto {
@@ -435,6 +439,12 @@ footer {
 .header-img {
     border-radius: 10%;
 }
+
+.me-picture {
+    border-radius: 10%;
+    max-width: 300;
+    height: auto;
+}
 /* ---------------------------------- */
 
 /* ARTICLE */
@@ -454,7 +464,7 @@ footer {
 
 /* Let's do a subtle gray for the empty bar, black for the fill */
 .progress-bar {
-    background-color: #dddddd;
+    background-color: #fdfafa;
     display: block;
     height: 10px;
     border-radius: 20px;
@@ -463,7 +473,7 @@ footer {
 .progress-bar span {
     height: 10px;
     float: left;
-    background: #000000;
+    background: #302F25;
     border-radius: 20px;
 }
 
@@ -546,6 +556,7 @@ footer {
 .card {
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     padding: 20px;
+    
 }
 
 .box {
@@ -636,6 +647,7 @@ footer {
         transform: none;
         height: auto;
         opacity: 0.9;
+        
     }
 
     #drop:checked ~ .main-nav {
@@ -698,10 +710,10 @@ footer {
         background-color: #000000;
     }
     .main-nav li a {
-        color: #ffffff;
+        color: #FFF2E7;
     }
     .main-nav li a:hover {
-        color: #ffffff;
+        color: #FFF2E7;
     }
     #main-toggle {
         border: 1px solid #ffffff;
@@ -726,7 +738,7 @@ footer {
     }
     .card {
         box-shadow: 0 0px 0px;
-        border: 2px solid #ffffff;
+        border: 2px solid #302F25;
     }
     .logo {
         background-color: #ffffff;
