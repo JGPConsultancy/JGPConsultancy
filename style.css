@@ -376,14 +376,14 @@ nav.sticky {
 }
 
 .main-nav li a {
-    color: #ffffff;
+    color: #FFF2E7;
     text-decoration: none;
     font-weight: normal;
 }
 
 .main-nav li a:hover {
     font-weight: bold;
-    color: #ffffff;
+    color: #FFF2E7;
 }
 
 
