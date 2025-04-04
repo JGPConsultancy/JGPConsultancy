@@ -52,18 +52,45 @@
 
     <!-- about me -->
     <!-- section1 - introduction -->
-    <section class="grid-system-2 w-900 padding">
-        <section class="center align-center">
-            <img class="max-width" src="assets/CONTACT-ME.png" alt="picture-of-me">
-        </section>
-        <section class="justify">
-            <h2 class="main-title-large">Contact Pagina</h2>
-            <p>blablabla </p>
-            <p class="quote uppercase center"><span class="colorful-letter">This is important</span> 
-            </p>blablabla</p>
-        </section>
-    </section>
-
+    <div id="container">
+      <div class="icon_wrapper center">
+        <img class="max-width" src="assets/CONTACT-ME.png" alt="picture-of-me">
+      </div>  
+      <form action="#" method="post" id="contact_form">
+        <div class="name">
+          <label for="name"></label>
+          <input type="text" placeholder="Voornaam" name="name" id="first_name" required>
+        </div>
+        <div class="email">
+          <label for="email"></label>
+          <input type="email" placeholder="Achternaam" name="email" id="last_name" required>
+        </div>
+        <div class="telephone">
+          <label for="name"></label>
+          <input type="text" placeholder="e-mailadres" name="telephone" id="email_input" required>
+        </div>
+        <div class="telephone">
+          <label for="name"></label>
+          <input type="text" placeholder="telefoonnummer" name="telephone" id="telephone_input" required>
+        </div>
+        <div class="subject">
+          <label for="subject"></label>
+          <select placeholder="Subject line" name="subject" id="subject_input" required>
+            <option disabled hidden selected>Onderwerp</option>
+            <option>Ik wil een project starten</option>
+            <option>Ik wil een vraag stellen</option>
+            <option>Ik wil een voorstel doen</option>
+          </select>
+        </div>
+        <div class="message">
+          <label for="message"></label>
+          <textarea name="message" placeholder="bericht" id="message_input" cols="30" rows="5" required></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send Message" id="form_button" />
+        </div>
+      </form><!-- // End form -->
+    </div><!-- // End #container -->
 
     <!-- section2 - background story -->
     <!-- use this section to tell, why did you choose programming -->
