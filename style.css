@@ -610,16 +610,16 @@ footer {
         max-height: 250px;
     }
     .padding-top {
-        padding-top: 10px;
+        padding-top: 3pc;
     }
     .padding-right {
-        padding-right: 10px;
+        padding-right: 3px;
     }
     .padding-bottom {
-        padding-bottom: 10px;
+        padding-bottom: 3px;
     }
     .padding-left {
-        padding-left: 10px;
+        padding-left: 3px;
     }
     .logo {
         width: 40px;
