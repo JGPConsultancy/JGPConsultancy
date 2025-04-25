@@ -504,7 +504,7 @@ footer {
 }
 
 .technologies {
-    width: 50%;
+    width: 70%;
     animation: technologies 3s;
 }
 
@@ -661,8 +661,7 @@ h1 {
 }
 
 .email {
-	float: right;
-	width: 45%;
+	width: 100%;
 }
 
 input[type='text'], [type='email'], select, textarea {
@@ -700,6 +699,11 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 
 .name {
 	float: left;
+	width: 45%;
+}
+
+.lastname {
+	float: right;
 	width: 45%;
 }
 
