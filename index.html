@@ -1,208 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Review this part and modify it to your liking -->
-    <meta name="description" content="My Portfolio Page">
-    <meta name="keywords" content="Consultancy">
-    <meta name="author" content="Jordi Dhondt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JGP Consultancy</title>
-    <!-- Adding favicon for older and modern browsers,
-        It is best to add favicon to the main folder, 
-        I used an only ico converter for best result,
-        Do not forget to clear you cache to see the changes -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <!-- font for the quote -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
-    <!-- font for the body -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
-    <!-- font for headings -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <!-- navigation bar -->
-    <nav class="sticky">
-        <a href="index.html">
-          <img src="assets/Logo final_page-0001.jpg" alt="JGP Consultancy Logo" class="logo-img" />
-        </a>
-      
-        <label for="drop" class="toggle" id="main-toggle">
-          <span class="nav-icon"></span>
-        </label>
-        <input type="checkbox" id="drop" />
-      
-        <ul class="main-nav">
-          <li><a href="index.html">Welkom</a></li>
-          <li><a href="about-me.html">Wie ben ik?</a></li>
-       <!--   <li><a href="skill-set.html">Skill-set</a></li>       -->
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact-me.html">Contact</a></li>
-        </ul>
-      </nav>
-    
-
-
-    <!-- introduction -->
-    <header class="center padding-top">
-        <section class="center white-background">
-            <img class="header-img max-width max-height" src="assets/Logo final_page-0001.jpg" alt="profile-picture">
-        </section>
-<!--        
-        <section class="align-center">
-            <h1 class="large-centered">WELKOM!</h1>
-            <p class="justify"> Welkom op de website van JGP Consultancy. Hier worden bedrijven geholpen om hun data efficiënt te organiseren
-                en ruwe informatie om te zetten in krachtige visuele inzichten.
-               Met expertise in automatiseringstools, data-engineering en visualisatiesoftware,
-               creëer ik efficiënte, schaalbare en intelligente oplossingen die leiden tot betere besluitvorming.</p>
-        </section>      
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+<!--
+Tooplate 2117 Infinite Loop
+https://www.tooplate.com/view/2117-infinite-loop
 -->
-    </header>
 
+  </head>
+  <body>    
+    <!-- Hero section -->
+    <section id="infinite" class="text-white tm-font-big tm-parallax">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
+        <div class="container">   
+          <div class="tm-next">
+              <a href="#infinite" class="navbar-brand">JGP Consultancy</a>
+          </div>             
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="#infinite">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="#whatwedo">What We Do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tm-nav-link" href="#testimonials">Tools & Expertise</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="#gallery">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="#contact">Contact</a>
+              </li>                    
+            </ul>
+          </div>        
+        </div>
+      </nav>
+      
+      <div class="text-center tm-hero-text-container">
+        <div class="tm-hero-text-container-inner">
+            <h2 class="tm-hero-title">JGP Consultancy</h2>
+            <p class="tm-hero-subtitle">
+              Organise your Energy Data,
+              <br>Compliance made simple.
+            </p>
+        </div>        
+      </div>
 
-
-
-    <!-- about me -->
-    <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
-    <section class="grid-system-2 w-1200 padding">
-        <section class="justify">
-            <p>Welkom bij <span class="bold">JGP Consultancy</span>. Ik ben Jordi Dhondt, milieukundige met een specialisatie in energie en duurzaamheid. Vanuit mijn 
-                passie voor technologie en data help ik bedrijven om grip te krijgen op hun energie- en duurzaamheidsdata.</p>
-            <p>JGP Consultancy richt zich op het automatiseren van datastromen en het ontwikkelen van krachtige, visueel 
-                aantrekkelijke dashboards in o.a. PowerBI, Grafana en Tableau. Minder handmatig werk, meer inzicht en betere beslissingen.</p>
-            <p>Ook ondersteun ik organisaties bij de voorbereiding op de CSRD-rapportageplicht. 
-                Door nu al te investeren in slimme dataprocessen, ben je straks goed voorbereid én compliant.</p>
-            <p>Met ervaring uit zowel de praktijk als mijn eigen homelab lever ik schaalbare en betrouwbare oplossingen die écht waarde toevoegen.</p>
-            <p class="bold">Klaar om meer uit je data te halen? Neem gerust contact op – ik denk graag met je mee.</p>
-            <p class="padding-top"><a href="contact-me.html" class="button-outline">Contact</a></p>
-        </section>
-        <section class="justify center padding">
-            <img class="dashboard-sketch" src="assets/sketch-energydashboard.png" alt="about-me-logo">
-        </section>
+      <div class="tm-next tm-intro-next">
+        <a href="#whatwedo" class="text-center tm-down-arrow-link">
+          <i class="fas fa-2x fa-arrow-down tm-down-arrow"></i>
+        </a>
+      </div>      
     </section>
 
-    <!-- quote -->
-    <article class="white-background center padding">
-        <p class="quote uppercase">Without data, you're just another person with an opinion.</p>
-        <p class="italic">— W. Edwards Deming</p>
-    </article>
+    <section id="whatwedo" class="tm-section-pad-top">
+      
+      <div class="container">
 
-    <!-- skills -->
-    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
-    <section>
-        <h3 class="main-title center padding">Vaardigheden & Eigenschappen</h3>
-    </section>
-    <section class="wrapper">
-        <section class="column">
-            <p class="bold">Kennis</p>
-            <section class="skills">
-                <ul class="no-bullet-list no-padding-list-item">
-                    <li>
-                        <p>Data Analyse & Visualisatie</p>
-                        <span class="progress-bar"><span class="data"></span></span>
-                    </li>
-                    <li>
-                        <p>Automatiseren & Coderen</p>
-                        <span class="progress-bar"><span class="automation"></span></span>
-                    </li>
-                    <li>
-                        <p>Energy Systemen & Duurzaamheid</p>
-                        <span class="progress-bar"><span class="energy"></span></span>
-                    </li>
-                    <li>
-                        <p>AI & Opkomende Technologieën</p>
-                        <span class="progress-bar"><span class="technologies"></span></span>
-                    </li>
-                </ul>
-            </section>
-        </section>
-        <section class="column">
-            <p class="bold">Persoonlijke Eigenschappen</p>
-            <section class="skills">
-                <ul class="no-bullet-list no-padding-list-item">
-                    <li>
-                        <p>communicatie</p>
-                        <span class="progress-bar"><span class="comm-adapt"></span></span>
-                    </li>
-                    <li>
-                        <p>flexibiliteit</p>
-                        <span class="progress-bar"><span class="team-player"></span></span>
-                    </li>
-                    <li>
-                        <p>oplossing gericht</p>
-                        <span class="progress-bar"><span class="problem-solving"></span></span>
-                    </li>
-                    <li>
-                        <p>ruimdenkend</p>
-                        <span class="progress-bar"><span class="open-minded"></span></span>
-                    </li>
-                </ul>
-            </section>
-        </section>
-    </section>
-    </section>
+            <div class="row tm-content-box"><!-- first row -->
+                <div class="col-lg-12 col-xl-12">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4 tm-section-title">What We Do</h2>
+                        <p class="mb-4 tm-intro-text">
+                          At <b>JGP Consultancy</b>, we help companies organize and visualize their energy data. By providing expert advice and implementing automated data 
+                          flows, we make it easier for organizations to comply with <b>CSRD reporting</b> requirements and the <b>ISO 50001 standard</b>. Our approach combines 
+                          technical expertise in data management and dashboards with hands-on implementation, ensuring that businesses are not only compliant, but 
+                          also empowered to make smarter decisions based on their energy performance</a>.</p>
+                    </div>
+                </div>
 
-    <!-- Projects -->
-    <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
-    <section>
-        <h3 class="main-title center padding">Projecten waar ik aan werk</h3>
-    </section>
-    <section class="wrapper">
-        <section class="column card justify flex">
-            <img class="box" src="assets/isolation-building.png" alt="project1">
-            <p class="bold center">Efficientie Scan</p>
-            <p>In dit project wordt de isolatiewaarde van een gebouw onderzocht om inzicht te krijgen in hoe efficiënt het omgaat met warmte. 
-                Door middel van dataverzameling, temperatuurmetingen en ...</p>
-            <p><a href="portfolio.html" class="button-outline">Portfolio</a></p>
-        </section>
-        <section class="column card justify flex">
-            <img class="box" src="assets/consulting.png" alt="project1">
-            <p class="bold center">Dataflow Optimalisatie voor Energiemanagement</p>
-            <p>In mijn huidige opdracht werk ik als consultant nauw samen met een energiemanager aan het optimaliseren van datastromen binnen een organisatie. 
-                Mijn rol richt zich op het ontwikkelen van slimme ...</p>
-            <p><a href="portfolio.html" class="button-outline">Portfolio</a></p>
-        </section>
+            </div><!-- first row -->
+            
+            <div class="row tm-content-box"><!-- second row -->
+        		<div class="col-lg-1">
+                    <i class="fas fa-3x fa-bolt text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4">Energy Data Quickscan</h2>
+                        <p class="mb-4 tm-intro-text">
+                          Get a clear picture of your company’s energy data in just a few days. With our Quickscan, we identify where your data comes from, how 
+                          reliable it is, and where inefficiencies exist. You’ll receive a concise report with actionable steps to move towards CSRD and ISO 50001 
+                          compliance — without committing to a large project.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-1">
+                    <i class="fas fa-3x fa-chart-bar text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4">Implementation & Automation</h2>
+                        <p class="mb-4 tm-intro-text">
+                          Stop wasting time on manual data collection. We streamline and automate your energy data flows by connecting meters, production 
+                          lines, and business systems into one central source. With real-time dashboards in tools like Power BI or Grafana, your data becomes 
+                          reliable, transparent, and ready for audits and decision-making.</p>
+                    </div>
+                </div>
 
-    </section>
+            </div><!-- second row -->
+            
+            <div class="row tm-content-box"><!-- third row -->
+        		<div class="col-lg-1">
+                    <i class="fas fa-3x fa-building text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4">Compliance</h2>
+                        <p class="mb-4 tm-intro-text">
+                      Stay in control of your compliance process. We provide the knowledge, tools, and training your team needs to prepare accurate CSRD and ISO 50001 
+                      reports. With practical templates and expert guidance, your company builds internal expertise — ensuring efficient and error-free reporting, 
+                      without depending on external parties.</p>
+                          <div class="tm-continue">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-1">
+                    <i class="fas fa-3x fa-comment-alt text-center tm-icon"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="tm-intro-text-container">
+                      <h2 class="tm-text-primary mb-4">Let's Work Together</h2>
+                        <p class="mb-4 tm-intro-text">
+                      Are you ready to take control of your company’s energy data and make compliance simple? Whether you need a quickscan, full data automation, 
+                      or support to build in-house expertise — we’re here to help.</p>
+                          <div class="tm-continue">
+                            <a href="#contact" class="tm-intro-text tm-btn-primary">Contact</a>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- contact me -->
-    <!-- Five logo can be in one row, and if it still not enough, you can create another row, buy doubleing the "box-contact" section -->
-    <section id="contact-me" class="grid-system-2 w-900 padding">
-        <section class="margin-auto">
-            <img class="max-width max-height" src="assets/CONTACT-ME.png" alt="contact-me-illustration">
-        </section>
-        <section class="margin-auto align-center">
-            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
-            <section class="box-contact margin-auto padding-top">
-                <span>
-                    <a href="https://www.linkedin.com/in/jordi-dhondt-07a33013b" target="_blank"><img class="logo" src="assets/linkedin.png"
-                            alt=""></a>
-                </span>
-                <span>
-                    <a href="mailto:jordi@jgpconsultancy.nl" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
-                </span>
-                <span>
-                    <a href="contact-me.html" target="_self"><img class="logo" src="assets/contact-page-img.png" alt=""></a>
-                </span>
-            </section>
-        </section>
+            </div><!-- third row -->
+
+        </div>
+      
     </section>
 
-    <footer>© JGP Consultancy</footer>
-</body>
+    <section id="testimonials" class="tm-section-pad-top tm-parallax-2">      
+      <div class="container tm-testimonials-content">
+        <div class="row">
+          <div class="col-lg-12 tm-content-box">
+            <h2 class="text-white text-center mb-4 tm-section-title">Tools & Expertise</h2>
+            <p class="mx-auto tm-section-desc text-center">
+                Nulla dictum sem non eros euismod, eu placerat tortor lobortis. Suspendisse id velit eu libero pellentesque interdum. Etiam quis congue eros.
+              </p>
+            <div class="mx-auto tm-gallery-container tm-gallery-container-2">
+              <div class="tm-testimonials-carousel">
+                <figure class="tm-testimonial-item">
+                  <img src="img/PowerBI_scalable.svg" alt="Image" width="150" height="150"  class= "mx-auto">
+                  <figcaption>PowerBI</figcaption>
+                  <blockquote>This background image includes a semi-transparent overlay layer. This section also has a parallax image effect.</blockquote>
+                </figure>
 
+                <figure class="tm-testimonial-item">
+                  <img src="img/Grafana_logo.svg" alt="Image" width="150" height="150"  class= "mx-auto">
+                  <figcaption>Grafana</figcaption>
+                  <blockquote>Nulla finibus ligula nec tortor convallis tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.</blockquote>                  
+                </figure>
+
+                <figure class="tm-testimonial-item">
+                  <img src="img/sql-database-generic-svgrepo-com.svg" alt="Image" width="150" height="150"  class= "mx-auto">
+                  <figcaption>SQL</figcaption>
+                  <blockquote>Curabitur rutrum pharetra lobortis. Pellentesque vehicula, velit quis eleifend fermentum, erat arcu aliquet neque.</blockquote>
+                </figure>
+
+                <figure class="tm-testimonial-item">
+                  <img src="img/uipath-vector-logo.svg" alt="Image" width="150" height="150"  class= "mx-auto">
+                  <figcaption>UIPath</figcaption>
+                  <blockquote>Integer sit amet risus et erat imperdiet finibus. Nam lacus nunc, vulputate id ex eget, euismod auctor augue.</blockquote>                  
+                </figure>
+
+                <figure class="tm-testimonial-item">
+                  <img src="img/python-logo-only.svg" alt="Image" width="150" height="160" class= "mx-auto">
+                  <figcaption>Python</figcaption>
+                  <blockquote>Testimonial section comes with carousel items. You can use Infinite Loop HTML CSS template for your websites.</blockquote>
+                </figure>
+
+                <figure class="tm-testimonial-item">
+                  <img src="img/n8n-color.svg" alt="Image" width="150" height="150"  class= "mx-auto">
+                  <figcaption>n8n</figcaption>
+                  <blockquote>Integer sit amet risus et erat imperdiet finibus. Nam lacus nunc, vulputate id ex eget, euismod auctor augue.</blockquote>                  
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-bg-overlay"></div>
+    </section>
+
+    <section id="gallery" class="tm-section-pad-top">
+      <div class="container tm-container-gallery">
+        <div class="row">
+          <div class="text-left col-12">
+              <h2 class="tm-text-primary tm-section-title mb-4 text-center">Projects</h2> 
+              <p class="mx-auto tm-section-desc">
+                Our recent projects highlight how we help companies transform scattered energy data into clear insights and compliance-ready reports. Each case reflects 
+                our focus on practical solutions and measurable results.
+              </p>
+          </div>            
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="mx-auto tm-gallery-container">
+                    <div class="grid tm-gallery">
+                      <a href="img/PowerBI_Dash.webp">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="img/PowerBI_Dash.webp" alt="Image 1" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Energy data in<span>PowerBI</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="img/homeenergydashboard.png">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="img/homeenergydashboard.png" alt="Image 2" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Energy data in <span>Grafana</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="img/n8n_simplefied.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="img/n8n_simplefied.jpg" alt="Image 2" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Automation in <span>n8n</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="img/uipath_simplefied.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="img/uipath_simplefied.jpg" alt="Image 2" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Automation in <span>UIPath</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                </div>                
+            </div>        
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="tm-section-pad-top tm-parallax-2">
+    
+      <div class="container tm-container-contact">
+        
+        <div class="row">
+            
+            <div class="text-center col-12">
+                <h2 class="tm-section-title mb-4">Contact Us</h2>
+                <p class="mb-5">
+                  Proin enim orci, tincidunt quis suscipit in, placerat nec est. Vestibulum posuere faucibus posuere. Quisque aliquam velit eget leo blandit egestas. Nulla id posuere felis, quis tristique nulla.
+                </p><br>
+            </div>
+<!--            
+            <div class="col-sm-12 col-md-6">
+              <form action="" method="get">
+                <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
+                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
+                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
+                <button type="submit" class="btn tm-btn-submit">Submit</button>
+              </form>
+            </div>
+-->
+<!--            
+            <div class="col-sm-12 col-md-6">
+                <div class="contact-item">
+                  <a rel="nofollow" href="https://www.tooplate.com/contact" class="item-link">
+                      <i class="far fa-2x fa-comment mr-4"></i>
+                      <span class="mb-0">Chat Online</span>
+                  </a>              
+                </div>
+-->                
+                <div class="contact-item">
+                  <a rel="nofollow" href="mailto:mail@company.com" class="item-link">
+                      <i class="far fa-2x fa-envelope mr-4"></i>
+                      <span class="mb-0">jordi@jgpconsultancy.nl</span>
+                  </a>              
+                </div>
+<!--                
+                <div class="contact-item">
+                  <a rel="nofollow" href="https://www.google.com/maps" class="item-link">
+                      <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
+                      <span class="mb-0">Our Location</span>
+                  </a>              
+                </div>
+-->                
+                <div class="contact-item">
+                  <a rel="nofollow" href="tel:0100200340" class="item-link">
+                      <i class="fas fa-2x fa-phone-square mr-4"></i>
+                      <span class="mb-0">+31 (06) 194 090 41</span>
+                  </a>              
+                </div>
+                
+                <div class="contact-item">&nbsp;</div>
+            
+            </div>
+            
+            
+        </div><!-- row ending -->
+        
+      </div>
+
+      	<footer class="text-center small tm-footer">
+          <p class="mb-0">
+          Copyright &copy; 2020 Company Name 
+          
+          . <a rel="nofollow" href="https://www.tooplate.com" title="HTML templates">Designed by TOOPLATE</a></p>
+        </footer>
+
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>     
+    <script src="slick/slick.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script> 
+    <script>
+      $(document).ready(function(){
+        $('.tm-testimonials-carousel').slick({
+         autoplay: true,
+         autoplaySpeed: 3500, // 3 seconds
+         dots: true,          // small navigation dots
+         arrows: true,       // hide prev/next arrows
+         infinite: true,
+          slidesToShow: 3,     // show 1 testimonial at a time
+         slidesToScroll: 2,
+          adaptiveHeight: true
+        });
+      });
+    </script>
+
+    <script>
+
+      function getOffSet(){
+        var _offset = 450;
+        var windowHeight = window.innerHeight;
+
+        if(windowHeight > 500) {
+          _offset = 400;
+        } 
+        if(windowHeight > 680) {
+          _offset = 300
+        }
+        if(windowHeight > 830) {
+          _offset = 210;
+        }
+
+        return _offset;
+      }
+
+      function setParallaxPosition($doc, multiplier, $object){
+        var offset = getOffSet();
+        var from_top = $doc.scrollTop(),
+          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
+        $object.css({"background-position" : bg_css });
+      }
+
+      // Parallax function
+      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+      var background_image_parallax = function($object, multiplier, forceSet){
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        // $object.css({"background-attatchment" : "fixed"});
+
+        if(forceSet) {
+          setParallaxPosition($doc, multiplier, $object);
+        } else {
+          $(window).scroll(function(){          
+            setParallaxPosition($doc, multiplier, $object);
+          });
+        }
+      };
+
+      var background_image_parallax_2 = function($object, multiplier){
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        $object.css({"background-attachment" : "fixed"});
+        
+        $(window).scroll(function(){
+          if($(window).width() > 768) {
+            var firstTop = $object.offset().top,
+                pos = $(window).scrollTop(),
+                yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+
+            var bg_css = 'center ' + yPos + 'px';
+
+            $object.css({"background-position" : bg_css });
+          } else {
+            $object.css({"background-position" : "center" });
+          }
+        });
+      };
+      
+      $(function(){
+        // Hero Section - Background Parallax
+        background_image_parallax($(".tm-parallax"), 0.30, false);
+        background_image_parallax_2($("#contact"), 0.80);   
+        background_image_parallax_2($("#testimonials"), 0.80);   
+        
+        // Handle window resize
+        window.addEventListener('resize', function(){
+          background_image_parallax($(".tm-parallax"), 0.30, true);
+        }, true);
+
+        // Detect window scroll and update navbar
+        $(window).scroll(function(e){          
+          if($(document).scrollTop() > 120) {
+            $('.tm-navbar').addClass("scroll");
+          } else {
+            $('.tm-navbar').removeClass("scroll");
+          }
+        });
+        
+        // Close mobile menu after click 
+        $('#tmNav a').on('click', function(){
+          $('.navbar-collapse').removeClass('show'); 
+        })
+
+        // Scroll to corresponding section with animation
+        $('#tmNav').singlePageNav({
+          'easing': 'easeInOutExpo',
+          'speed': 600
+        });        
+        
+        // Add smooth scrolling to all links
+        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 600, 'easeInOutExpo', function(){
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+
+        // Pop up
+        $('.tm-gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery: { enabled: true }
+        });
+
+        $('.tm-testimonials-carousel').slick({
+          dots: true,
+          prevArrow: false,
+          nextArrow: false,
+          infinite: false,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2
+              }
+            }, 
+            {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1
+              }                 
+            }
+          ]
+        });
+
+        // Gallery
+        $('.tm-gallery').slick({
+          dots: true,
+          infinite: false,
+          slidesToShow: 5,
+          slidesToScroll: 2,
+          responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+        });
+      });
+    </script>
+  </body>
 </html>
