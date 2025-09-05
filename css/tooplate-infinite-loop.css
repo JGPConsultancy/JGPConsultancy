@@ -42,6 +42,7 @@ a:focus {
 blockquote {
   font-size: 0.86em;
   line-height: 1.8em;
+  text-align: center;
 }
 
 .tm-section-pad-top {
@@ -273,7 +274,6 @@ blockquote {
   background-image: url(../img/infinite-loop-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
 }
 
@@ -286,6 +286,7 @@ blockquote {
 .tm-testimonials-content {
   position: relative;
   z-index: 100;
+  background-size: cover;
 }
 
 .tm-bg-overlay {
@@ -616,7 +617,7 @@ p {
   line-height: 1.9;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .tm-intro-text-container {
     padding-left: 0px;
   }
@@ -641,7 +642,7 @@ p {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
   .tm-intro-text-container {
     padding-left: 15px;
     padding-top: 30px;
