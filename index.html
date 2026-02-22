@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>JGP Consultancy - Energiedata Automatisering & CSRD/ISO 50001 Compliance</title>
+    <title>JGP Consultancy | Energiedata automatisering voor CSRD &amp; ISO 50001</title>
 
     <!-- SEO & Social Metadata -->
-    <meta name="description" content="JGP Consultancy helpt productie- en industriële bedrijven energiedata te automatiseren en visualiseren voor CSRD en ISO-50001 compliance. Vraag nu een gratis quickscan aan!">
+    <meta name="description" content="JGP Consultancy helpt industriele bedrijven energiedata automatiseren, dashboards bouwen en CSRD/ISO 50001-compliance halen. Quickscan, implementatie en audit-ready rapportage.">
     <meta name="author" content="JGP Consultancy" />
     <meta name="keywords" content="energiedata, automatisering, CSRD, ISO 50001, energie monitoring, compliance, Power BI, Grafana, data visualisatie" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="googlebot" content="index,follow,max-image-preview:large" />
+    <meta name="language" content="Dutch" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#0b5d4b" />
 
     <!-- Canonical & Language -->
     <link rel="canonical" href="https://jgpconsultancy.nl/" />
@@ -18,20 +23,27 @@
     <link rel="alternate" hreflang="x-default" href="https://jgpconsultancy.nl/" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="JGP Consultancy - Energiedata Automatisering & CSRD/ISO 50001 Compliance" />
-    <meta property="og:description" content="Energiedata automatiseren en visualiseren voor CSRD en ISO-50001 compliance. Vraag nu een gratis quickscan aan!" />
+    <meta property="og:title" content="JGP Consultancy | Energiedata automatisering voor CSRD &amp; ISO 50001" />
+    <meta property="og:description" content="Energiedata automatiseren, dashboards bouwen en audit-ready rapportage voor CSRD/ISO 50001. Van quickscan tot implementatie." />
     <meta property="og:image" content="https://jgpconsultancy.nl/img/PowerBI_Dash.webp" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image:secure_url" content="https://jgpconsultancy.nl/img/PowerBI_Dash.webp" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:width" content="1141" />
+    <meta property="og:image:height" content="727" />
+    <meta property="og:image:alt" content="Energiedashboard voorbeeld van JGP Consultancy" />
     <meta property="og:url" content="https://jgpconsultancy.nl/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="JGP Consultancy" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:locale:alternate" content="en_GB" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="JGP Consultancy - Energiedata Automatisering" />
-    <meta name="twitter:description" content="Automatiseren en visualiseren van energiedata voor CSRD en ISO-50001 compliance." />
+    <meta name="twitter:title" content="JGP Consultancy | Energiedata automatisering" />
+    <meta name="twitter:description" content="Energiedata automatiseren, dashboards bouwen en audit-ready rapportage voor CSRD/ISO 50001." />
     <meta name="twitter:image" content="https://jgpconsultancy.nl/img/PowerBI_Dash.webp" />
+    <meta name="twitter:image:alt" content="Energiedashboard voorbeeld van JGP Consultancy" />
+    <meta name="twitter:url" content="https://jgpconsultancy.nl/" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -40,6 +52,13 @@
     <!-- Preconnect for external resources -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://code.jquery.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//code.jquery.com">
+    <link rel="preload" href="img/PowerBI_Dash.webp" as="image" type="image/webp">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -48,6 +67,7 @@
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+    <link rel="stylesheet" href="css/jgp-refresh.css" />
 <!--
 Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
@@ -58,8 +78,9 @@ https://www.tooplate.com/view/2117-infinite-loop
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
+      "@id": "https://jgpconsultancy.nl/#organization",
       "name": "JGP Consultancy",
-      "description": "Energy data automation and compliance services for CSRD and ISO 50001. Helping industrial companies automate and visualize energy data flows.",
+      "description": "Energiedata automatisering en compliance services voor CSRD en ISO 50001 voor industrie en productiebedrijven.",
       "url": "https://jgpconsultancy.nl",
       "logo": "https://jgpconsultancy.nl/favicon.ico",
       "image": "https://jgpconsultancy.nl/img/PowerBI_Dash.webp",
@@ -77,6 +98,7 @@ https://www.tooplate.com/view/2117-infinite-loop
         "@type": "Country",
         "name": "Netherlands"
       },
+      "inLanguage": ["nl-NL", "en-GB"],
       "knowsAbout": ["Energy Data Management", "CSRD Compliance", "ISO 50001", "Data Automation", "Energy Monitoring", "Business Intelligence"],
       "serviceType": ["Energy Data Automation", "Compliance Consulting", "Data Visualization"]
     }
@@ -85,10 +107,34 @@ https://www.tooplate.com/view/2117-infinite-loop
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://jgpconsultancy.nl/#webpage",
+      "url": "https://jgpconsultancy.nl/",
+      "name": "JGP Consultancy | Energiedata automatisering voor CSRD & ISO 50001",
+      "description": "JGP Consultancy helpt industriele bedrijven energiedata automatiseren, dashboards bouwen en CSRD/ISO 50001-compliance halen.",
+      "inLanguage": "nl-NL",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://jgpconsultancy.nl/#website",
+        "url": "https://jgpconsultancy.nl/",
+        "name": "JGP Consultancy"
+      },
+      "about": {
+        "@id": "https://jgpconsultancy.nl/#organization"
+      },
+      "primaryImageOfPage": "https://jgpconsultancy.nl/img/PowerBI_Dash.webp"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
       "@type": "Service",
       "serviceType": "Energy Data Automation and Compliance Services",
+      "url": "https://jgpconsultancy.nl/",
       "provider": {
         "@type": "ProfessionalService",
+        "@id": "https://jgpconsultancy.nl/#organization",
         "name": "JGP Consultancy"
       },
       "areaServed": {
@@ -130,10 +176,11 @@ https://www.tooplate.com/view/2117-infinite-loop
 
   </head>
   <body>    
+    <main id="main-content">
     <!-- Hero section -->
-    <section id="infinite" class="text-white tm-font-big tm-parallax">
+    <section id="infinite" class="tm-hero">
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
+      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav" aria-label="Hoofdnavigatie">              
         <div class="container">   
           <div class="tm-next">
               <a href="#infinite" class="navbar-brand">JGP Consultancy</a>
@@ -172,13 +219,40 @@ https://www.tooplate.com/view/2117-infinite-loop
         </div>
       </nav>
       
-      <div class="text-center tm-hero-text-container">
+      <div class="tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
-            <h1 class="tm-hero-title">JGP Consultancy</h1>
-            <p class="tm-hero-subtitle">
-              Organiseer je Energiedata,
-              <br>Compliance makkelijk gemaakt.
-            </p>
+          <div class="tm-hero-grid">
+            <div class="tm-hero-copy">
+              <p class="tm-eyebrow">Energiedata | Compliance | Inzicht</p>
+              <h1 class="tm-hero-title">Energiedata automatisering voor CSRD &amp; ISO 50001.</h1>
+              <p class="tm-hero-subtitle">
+                Van losse meters en spreadsheets naar een betrouwbare datalaag, audit-ready rapportage en dashboards die teams gebruiken.
+              </p>
+              <div class="tm-hero-actions">
+                <a href="#contact" class="tm-btn-primary">Plan een kennismaking</a>
+                <a href="#gallery" class="tm-btn-outline">Bekijk projecten</a>
+              </div>
+              <div class="tm-hero-highlights">
+                <span class="tm-hero-pill">Quickscan in enkele dagen</span>
+                <span class="tm-hero-pill">Tooling op maat</span>
+                <span class="tm-hero-pill">Hands-on implementatie</span>
+              </div>
+            </div>
+            <div class="tm-hero-card">
+              <div class="tm-hero-card-header">
+                <span>Voorbeeld deliverable</span>
+                <span>Dashboard + datalaag</span>
+              </div>
+              <div class="tm-hero-media">
+                <img src="img/PowerBI_Dash.webp" alt="Voorbeeld van een energiedashboard" width="1200" height="800" loading="eager" fetchpriority="high" decoding="async">
+              </div>
+              <ul class="tm-hero-card-list">
+                <li><i class="fas fa-check-circle"></i>Realtime monitoring per locatie</li>
+                <li><i class="fas fa-check-circle"></i>Automatische datavalidatie</li>
+                <li><i class="fas fa-check-circle"></i>Audit-ready exports</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -189,143 +263,113 @@ https://www.tooplate.com/view/2117-infinite-loop
       </div>      
     </section>
 
-    <section id="whatwedo" class="tm-section-pad-top">
-      
+    <section id="whatwedo" class="tm-section-pad-top tm-section-services">
       <div class="container">
-
-            <div class="row tm-content-box"><!-- first row -->
-                <div class="col-lg-12 col-xl-12">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">Diensten</h2>
-                        <p class="mb-4 tm-intro-text">
-                          Bij <b>JGP Consultancy</b> helpen we bedrijven hun energiedata te organiseren en visualiseren. Door deskundig advies te geven en geautomatiseerde
-                          datastromen te implementeren, maken we het voor organisaties gemakkelijker om te voldoen aan <b>CSRD-rapportage</b> vereisten en de
-                          <b>ISO 50001-norm</b>. Onze aanpak combineert technische expertise in databeheer en dashboards met hands-on implementatie, waardoor bedrijven
-                          niet alleen compliant zijn, maar ook in staat worden gesteld om slimmere beslissingen te nemen op basis van hun energieprestaties.</p>
-                    </div>
-                </div>
-
-            </div><!-- first row -->
-            
-            <div class="row tm-content-box"><!-- second row -->
-        		<div class="col-lg-1">
-                    <i class="fas fa-3x fa-bolt text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary">Energiedata Quickscan</h2>
-                        <p class="mb-4 tm-intro-text">
-                          Krijg in slechts een paar dagen een helder beeld van de energiedata van je bedrijf. Met onze Quickscan identificeren we waar je data
-                          vandaan komt, hoe betrouwbaar deze is, en waar inefficiënties bestaan. Je ontvangt een beknopt rapport met concrete stappen om richting
-                          CSRD- en ISO 50001-compliance te werken — zonder je vast te leggen op een groot project.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-1">
-                    <i class="fas fa-3x fa-chart-bar text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Implementatie & Automatisering</h2>
-                        <p class="mb-4 tm-intro-text">
-                          Stop met tijdverspilling aan handmatige dataverzameling. We stroomlijnen en automatiseren je energiedata-stromen door meters, productielijnen
-                          en bedrijfssystemen te koppelen tot één centrale bron. Met realtime dashboards in tools zoals Power BI of Grafana wordt je data
-                          betrouwbaar, transparant en klaar voor audits en besluitvorming.</p>
-                    </div>
-                </div>
-
-            </div><!-- second row -->
-            
-            <div class="row tm-content-box"><!-- third row -->
-        		<div class="col-lg-1">
-                    <i class="fas fa-3x fa-building text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Compliance</h2>
-                        <p class="mb-4 tm-intro-text">
-                      Behoud de controle over je compliance-proces. We bieden de kennis, tools en training die je team nodig heeft om accurate CSRD- en ISO 50001-rapporten
-                      voor te bereiden. Met praktische templates en deskundige begeleiding bouwt je bedrijf interne expertise op — waardoor efficiënte en foutloze
-                      rapportage gegarandeerd is, zonder afhankelijkheid van externe partijen.</p>
-                          <div class="tm-continue">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-1">
-                    <i class="fas fa-3x fa-comment-alt text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                      <h2 class="tm-text-primary mb-4">Laten We Samenwerken</h2>
-                        <p class="mb-4 tm-intro-text">
-                      Ben je klaar om de controle over de energiedata van je bedrijf te nemen en compliance eenvoudig te maken? Of je nu een quickscan nodig hebt,
-                      volledige data-automatisering, of ondersteuning om interne expertise op te bouwen — wij staan klaar om te helpen.</p>
-                          <div class="tm-continue">
-                            <a href="#" class="tm-intro-text tm-btn-primary"></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- third row -->
-
+        <div class="tm-section-head">
+          <p class="tm-eyebrow">Diensten</p>
+          <h2 class="tm-section-title">Energiedata die klopt, compliance die werkt.</h2>
+          <p class="tm-section-lead">
+            JGP Consultancy helpt productie- en industriele bedrijven energiedata te organiseren, automatiseren en visualiseren. Met een pragmatische aanpak
+            realiseren we audit-ready rapportage voor CSRD en ISO 50001 en dashboards die teams echt gebruiken.
+          </p>
         </div>
-      
+
+        <div class="tm-services-grid">
+          <article class="tm-service-card">
+            <div class="tm-service-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Energiedata Quickscan</h3>
+            <p>In korte tijd inzicht in bronnen, datakwaliteit en risico's. Je krijgt een duidelijke routekaart zonder direct een groot traject in te gaan.</p>
+            <ul class="tm-service-list">
+              <li><i class="fas fa-check-circle"></i>Inventarisatie van meetpunten en databronnen</li>
+              <li><i class="fas fa-check-circle"></i>Beoordeling op volledigheid, betrouwbaarheid en gaps</li>
+              <li><i class="fas fa-check-circle"></i>Concrete stappen richting CSRD/ISO 50001</li>
+            </ul>
+          </article>
+
+          <article class="tm-service-card">
+            <div class="tm-service-icon"><i class="fas fa-diagram-project"></i></div>
+            <h3>Automatisering &amp; Integratie</h3>
+            <p>We koppelen meters, systemen en databronnen tot een consistente datalaag, inclusief validatie en monitoring.</p>
+            <ul class="tm-service-list">
+              <li><i class="fas fa-check-circle"></i>Datastromen en automatische validatieregels</li>
+              <li><i class="fas fa-check-circle"></i>Dashboards in Power BI of Grafana</li>
+              <li><i class="fas fa-check-circle"></i>Realtime signalering bij afwijkingen</li>
+            </ul>
+          </article>
+
+          <article class="tm-service-card">
+            <div class="tm-service-icon"><i class="fas fa-clipboard-check"></i></div>
+            <h3>Compliance &amp; Rapportage</h3>
+            <p>Van structuur en KPI's tot rapportage-exports: alles wat nodig is om audits soepel te laten verlopen.</p>
+            <ul class="tm-service-list">
+              <li><i class="fas fa-check-circle"></i>CSRD en ISO 50001 rapportagestructuur</li>
+              <li><i class="fas fa-check-circle"></i>Audit trail, documentatie en datagovernance</li>
+              <li><i class="fas fa-check-circle"></i>Coaching van interne teams</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="tm-cta-card">
+          <div>
+            <h3>In een gesprek helderheid</h3>
+            <p>We bespreken je situatie, kansen en scope. Geen verplichtingen, wel concrete next steps.</p>
+          </div>
+          <a href="#contact" class="tm-btn-primary">Plan een kennismaking</a>
+        </div>
+      </div>
     </section>
 
     <section id="testimonials" class="tm-section-pad-top tm-parallax-2">
       <div class="container tm-testimonials-content">
         <div class="row">
           <div class="col-lg-12 tm-content-box">
-            <h2 class="text-white text-left mb-4 tm-section-title">Tools</h2>
+            <h2 class="text-white text-left mb-4 tm-section-title">Tooling &amp; Platforms</h2>
             <p class="mx-auto tm-intro-text text-left">
-                We gebruiken een selectie van bewezen softwaretools om je bedrijf te helpen inzichten te verkrijgen, processen te automatiseren en betere
-                beslissingen te nemen. De onderstaande voorbeelden benadrukken enkele platforms waarmee we werken, hoewel onze ervaring verder reikt.
-              </p>
-            <div class="mx-auto tm-gallery-container tm-gallery-container-2">
-              <div class="tm-testimonials-carousel">
-                <figure class="tm-testimonial-item">
-                  <img src="img/PowerBI_scalable.svg" alt="Microsoft Power BI logo - Business Intelligence Dashboard Tool" width="150" height="150"  class= "mx-auto">
-                  <figcaption>PowerBI</figcaption>
-                  <blockquote>Power BI is Microsoft's business intelligence tool die ruwe data omzet in interactieve dashboards en rapporten. Het helpt
-                    trends te visualiseren en ondersteunt slimmere, datagedreven beslissingen.</blockquote>
-                </figure>
+              We werken tooling-onafhankelijk en kiezen de tooling die het beste past bij je data, processen en team. Hieronder een selectie van platforms
+              die we vaak inzetten voor dashboards, automatisering en datakwaliteit.
+            </p>
+            <div class="tm-tools-grid">
+              <article class="tm-tool-card">
+                <img class="tm-tool-logo" src="img/PowerBI_scalable.svg" alt="Microsoft Power BI logo - Business Intelligence Dashboard Tool" width="120" height="120" loading="lazy" decoding="async">
+                <h3 class="tm-tool-title">Power BI</h3>
+                <p class="tm-tool-text">Power BI is Microsoft's business intelligence tool die ruwe data omzet in interactieve dashboards en rapporten. Het helpt
+                  trends te visualiseren en ondersteunt slimmere, datagedreven beslissingen.</p>
+              </article>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/Grafana_logo.svg" alt="Grafana logo - Open Source Analytics and Monitoring Platform" width="150" height="150"  class= "mx-auto">
-                  <figcaption>Grafana</figcaption>
-                  <blockquote>Grafana is een open-source platform voor monitoring en observability. Het stelt je in staat om verbinding te maken met verschillende
-                    databronnen en interactieve dashboards te maken om prestaties te volgen en realtime inzichten te verkrijgen.</blockquote>
-                </figure>
+              <article class="tm-tool-card">
+                <img class="tm-tool-logo" src="img/Grafana_logo.svg" alt="Grafana logo - Open Source Analytics and Monitoring Platform" width="120" height="120" loading="lazy" decoding="async">
+                <h3 class="tm-tool-title">Grafana</h3>
+                <p class="tm-tool-text">Grafana is een open-source platform voor monitoring en observability. Het stelt je in staat om verbinding te maken met verschillende
+                  databronnen en interactieve dashboards te maken om prestaties te volgen en realtime inzichten te verkrijgen.</p>
+              </article>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/sql-database-generic-svgrepo-com.svg" alt="SQL Database icon - Relational Database Management System" width="150" height="150"  class= "mx-auto">
-                  <figcaption>SQL</figcaption>
-                  <blockquote>SQL is de standaardtaal voor het beheren en bevragen van relationele databases. Het wordt gebruikt om gestructureerde data
-                    efficiënt op te slaan, te organiseren en te analyseren, en vormt de basis voor datagedreven applicaties en rapportage.</blockquote>
-                </figure>
+              <article class="tm-tool-card">
+                <img class="tm-tool-logo" src="img/sql-database-generic-svgrepo-com.svg" alt="SQL Database icon - Relational Database Management System" width="120" height="120" loading="lazy" decoding="async">
+                <h3 class="tm-tool-title">SQL</h3>
+                <p class="tm-tool-text">SQL is de standaardtaal voor het beheren en bevragen van relationele databases. Het wordt gebruikt om gestructureerde data
+                  efficient op te slaan, te organiseren en te analyseren, en vormt de basis voor datagedreven applicaties en rapportage.</p>
+              </article>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/uipath-vector-logo.svg" alt="UiPath logo - Robotic Process Automation Platform" width="150" height="150"  class= "mx-auto">
-                  <figcaption>UIPath</figcaption>
-                  <blockquote>UiPath is een toonaangevend Robotic Process Automation (RPA) platform. Het helpt bij het automatiseren van repetitieve
-                    bedrijfsprocessen, waardoor de efficiëntie en nauwkeurigheid wordt verbeterd en tijd wordt vrijgemaakt voor waardevoller taken.</blockquote>
-                </figure>
+              <article class="tm-tool-card">
+                <img class="tm-tool-logo" src="img/uipath-vector-logo.svg" alt="UiPath logo - Robotic Process Automation Platform" width="120" height="120" loading="lazy" decoding="async">
+                <h3 class="tm-tool-title">UiPath</h3>
+                <p class="tm-tool-text">UiPath is een toonaangevend Robotic Process Automation (RPA) platform. Het helpt bij het automatiseren van repetitieve
+                  bedrijfsprocessen, waardoor de efficientie en nauwkeurigheid wordt verbeterd en tijd wordt vrijgemaakt voor waardevoller taken.</p>
+              </article>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/python-logo-only.svg" alt="Python programming language logo" width="150" height="160" class= "mx-auto">
-                  <figcaption>Python</figcaption>
-                  <blockquote>Python is een veelzijdige programmeertaal die veel wordt gebruikt in data-analyse, automatisering en applicatieontwikkeling.
-                    De eenvoud en krachtige libraries maken het ideaal voor het oplossen van complexe problemen.</blockquote>
-                </figure>
+              <article class="tm-tool-card">
+                <img class="tm-tool-logo" src="img/python-logo-only.svg" alt="Python programming language logo" width="120" height="120" loading="lazy" decoding="async">
+                <h3 class="tm-tool-title">Python</h3>
+                <p class="tm-tool-text">Python is een veelzijdige programmeertaal die veel wordt gebruikt in data-analyse, automatisering en applicatieontwikkeling.
+                  De eenvoud en krachtige libraries maken het ideaal voor het oplossen van complexe problemen.</p>
+              </article>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/n8n-color.svg" alt="n8n logo - Workflow Automation Tool" width="150" height="150"  class= "mx-auto">
-                  <figcaption>n8n</figcaption>
-                  <blockquote>n8n is een open-source workflow automation tool. Het verbindt verschillende apps, API's en services, waardoor je aangepaste
-                    automatiseringen kunt bouwen die processen stroomlijnen zonder zwaar te moeten programmeren.</blockquote>
-                </figure>
-              </div>
+              <article class="tm-tool-card">
+                <img class="tm-tool-logo" src="img/n8n-color.svg" alt="n8n logo - Workflow Automation Tool" width="120" height="120" loading="lazy" decoding="async">
+                <h3 class="tm-tool-title">n8n</h3>
+                <p class="tm-tool-text">n8n is een open-source workflow automation tool. Het verbindt verschillende apps, API's en services, waardoor je aangepaste
+                  automatiseringen kunt bouwen die processen stroomlijnen zonder zwaar te moeten programmeren.</p>
+              </article>
             </div>
           </div>
         </div>
@@ -337,10 +381,10 @@ https://www.tooplate.com/view/2117-infinite-loop
       <div class="container tm-container-gallery">
         <div class="row">
           <div class="text-left col-12">
-              <h2 class="tm-text-primary tm-section-title mb-4 text-left">Projecten</h2>
+              <h2 class="tm-text-primary tm-section-title mb-4 text-left">Projecten &amp; Resultaten</h2>
               <p class="mx-auto tm-intro-text">
-                Onze recente projecten laten zien hoe we bedrijven helpen verspreide energiedata om te zetten in duidelijke inzichten en compliance-ready rapporten.
-                Elk project weerspiegelt onze focus op praktische oplossingen en meetbare resultaten.
+                Deze projecten tonen hoe we versnipperde energiedata omzetten naar een betrouwbare bron, duidelijke dashboards en audit-ready rapportage.
+                Altijd praktisch, meetbaar en afgestemd op de dagelijkse operatie.
               </p>
           </div>
         </div>
@@ -349,7 +393,7 @@ https://www.tooplate.com/view/2117-infinite-loop
           <!-- Project 1 -->
           <div class="tm-project-card">
             <a href="img/uipath_simplefied.jpg" class="tm-project-card-image popup-link">
-              <img src="img/uipath_simplefied.jpg" alt="Power BI Energy Dashboard" width="800" height="600">
+              <img src="img/uipath_simplefied.jpg" alt="Automatiseringsworkflow voor energiedata" width="800" height="600" loading="lazy" decoding="async">
               <div class="tm-project-overlay">
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
@@ -386,7 +430,7 @@ https://www.tooplate.com/view/2117-infinite-loop
           <!-- Project 2 -->
           <div class="tm-project-card">
             <a href="img/PowerBI_Dash.webp" class="tm-project-card-image popup-link">
-              <img src="img/PowerBI_Dash.webp" alt="n8n Workflow Automation" width="800" height="600">
+              <img src="img/PowerBI_Dash.webp" alt="Power BI energiedashboard" width="800" height="600" loading="lazy" decoding="async">
               <div class="tm-project-overlay">
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
@@ -423,7 +467,7 @@ https://www.tooplate.com/view/2117-infinite-loop
           <!-- Project 3 -->
           <div class="tm-project-card">
             <a href="img/quickscan1.jpg" class="tm-project-card-image popup-link">
-              <img src="img/quickscan1.jpg" alt="Grafana Monitoring Dashboard" width="800" height="600">
+              <img src="img/quickscan1.jpg" alt="Voorbeeld van quickscan rapport" width="800" height="600" loading="lazy" decoding="async">
               <div class="tm-project-overlay">
                 <i class="fas fa-search-plus fa-3x"></i>
               </div>
@@ -433,13 +477,13 @@ https://www.tooplate.com/view/2117-infinite-loop
                 <h3 class="tm-text-primary">Energie Quickscan</h3>
                 <div class="tm-project-tags">
                   <span class="tm-tag"><i class="fas fa-gear"></i> Optimalisatie</span>
-                  <span class="tm-tag"><i class="fas fa-leaf"></i> CO₂-reductie</span>
+                  <span class="tm-tag"><i class="fas fa-leaf"></i> CO2-reductie</span>
                   <span class="tm-tag"><i class="fas fa-industry"></i> Industrie</span>
                 </div>
               </div>
-              <p class="tm-project-description">We voeren een energie-quickscan uit waarin de grootste verbruikers binnen een organisatie in kaart worden gebracht en 
-                concrete besparingskansen helder worden. De resultaten worden samengebracht in een helder rapport met visualisaties, inclusief aanbevelingen 
-                voor optimalisatie, CO₂-reductie en mogelijke vervolgstappen richting CSRD- of ISO 50001-compliance.</p>
+              <p class="tm-project-description">We voeren een energie-quickscan uit waarin we de grootste verbruikers binnen een organisatie in kaart brengen en 
+                concrete besparingskansen identificeren. De resultaten worden samengebracht in een helder rapport met visualisaties, inclusief aanbevelingen 
+                voor optimalisatie, CO2-reductie en mogelijke vervolgstappen richting CSRD- of ISO 50001-compliance.</p>
               <div class="tm-project-features">
                 <div class="tm-feature-item">
                   <i class="fas fa-check-circle"></i>
@@ -496,11 +540,11 @@ https://www.tooplate.com/view/2117-infinite-loop
 
         <!-- Pagination Controls (Mobile Only) -->
         <div class="tm-projects-pagination">
-          <button id="prevPageProjects" onclick="changeProjectsPage(-1)">← Vorige</button>
+          <button id="prevPageProjects" onclick="changeProjectsPage(-1)">&larr; Vorige</button>
           <span class="tm-page-info">
             <span id="currentPageProjects">1</span> / <span id="totalPagesProjects">2</span>
           </span>
-          <button id="nextPageProjects" onclick="changeProjectsPage(1)">Volgende →</button>
+          <button id="nextPageProjects" onclick="changeProjectsPage(1)">Volgende &rarr;</button>
         </div>
       </div>
     </section>
@@ -510,135 +554,102 @@ https://www.tooplate.com/view/2117-infinite-loop
       <div class="container tm-blog-container">
         <div class="row">
           <div class="col-12">
-            <h2 class="tm-text-primary tm-section-title mb-4">Blog & Testimonials</h2>
+            <h2 class="tm-text-primary tm-section-title mb-4">Inzichten &amp; Klantverhalen</h2>
             <p class="tm-intro-text">
-              Wat klanten zeggen over onze samenwerking en inzichten uit recente projecten.
+              Praktische inzichten uit energiedata-projecten, plus korte klantverhalen over impact en aanpak.
             </p>
           </div>
         </div>
 
         <div class="tm-blog-grid">
+          <article class="tm-blog-card">
+            <div class="tm-blog-meta">
+              <span class="tm-blog-tag">Inzicht</span>
+              <time datetime="2026-01-10">10 januari 2026</time>
+            </div>
+            <h3 class="tm-blog-title">CSRD in de praktijk: welke energiedata heb je echt nodig?</h3>
+            <p class="tm-blog-excerpt">Een compacte checklist met data-velden, granulariteit en governance die auditors verwachten.</p>
+            <div class="tm-blog-footer">
+              <span>Leestijd 4 min</span>
+              <span>Focus: CSRD gereedheid</span>
+            </div>
+          </article>
 
-          <!-- Blog Post 1 -->
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              JGP Consultancy heeft ons geholpen om complexe energiedata uit meerdere bronnen samen te brengen in één helder dashboard. We hebben nu realtime inzicht in ons verbruik.
+          <article class="tm-blog-card">
+            <div class="tm-blog-meta">
+              <span class="tm-blog-tag">Methode</span>
+              <time datetime="2025-12-05">5 december 2025</time>
             </div>
-            <div class="tm-blog-author">Mark van der Berg</div>
-            <div class="tm-blog-role">Operations Manager</div>
-            <div class="tm-blog-project">Project: Power BI Dashboard Implementatie</div>
-            <div class="tm-blog-date">Augustus 2025</div>
-          </div>
+            <h3 class="tm-blog-title">Van meterdata naar stuurinformatie: een robuuste dataketen</h3>
+            <p class="tm-blog-excerpt">Zo bouw je een single source of truth met validatieregels en traceerbaarheid.</p>
+            <div class="tm-blog-footer">
+              <span>Leestijd 5 min</span>
+              <span>Focus: data-architectuur</span>
+            </div>
+          </article>
 
-          <!-- Blog Post 2
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              De automatisering met n8n heeft onze rapportage workflows volledig getransformeerd. Wat vroeger uren kostte, gebeurt nu automatisch.
+          <article class="tm-blog-card">
+            <div class="tm-blog-meta">
+              <span class="tm-blog-tag">ISO 50001</span>
+              <time datetime="2025-11-18">18 november 2025</time>
             </div>
-            <div class="tm-blog-author">Lisa Jansen</div>
-            <div class="tm-blog-role">Sustainability Coordinator, IndustrieCorp</div>
-            <div class="tm-blog-project">Project: Geautomatiseerde CSRD Rapportage</div>
-            <div class="tm-blog-date">September 2024</div>
-          </div>
-        -->
-          <!-- Blog Post 3 -->
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              Dankzij de quickscan kregen we binnen één dag een duidelijk beeld van onze energiedata situatie en concrete stappen voor verbetering.
+            <h3 class="tm-blog-title">ISO 50001 zonder spreadsheet-chaos</h3>
+            <p class="tm-blog-excerpt">Indicatoren, datakwaliteit en audit trail samenbrengen in een werkstroom.</p>
+            <div class="tm-blog-footer">
+              <span>Leestijd 4 min</span>
+              <span>Focus: complianceproces</span>
             </div>
-            <div class="tm-blog-author">Tom Pieters</div>
-            <div class="tm-blog-role">Facility Manager</div>
-            <div class="tm-blog-project">Project: Energiedata Quickscan</div>
-            <div class="tm-blog-date">Juni 2025</div>
-          </div>
-        
+          </article>
 
-         <!-- Blog Post 4 
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              De Grafana dashboards geven ons een kristalhelder overzicht van onze energie prestaties. Eindelijk kunnen we trends herkennen en proactief handelen.
+          <article class="tm-blog-card">
+            <div class="tm-blog-meta">
+              <span class="tm-blog-tag">Dashboard</span>
+              <time datetime="2025-10-24">24 oktober 2025</time>
             </div>
-            <div class="tm-blog-author">Sophie Vermeer</div>
-            <div class="tm-blog-role">Energy Manager, TechFabric Industries</div>
-            <div class="tm-blog-project">Project: Real-time Monitoring Systeem</div>
-            <div class="tm-blog-date">Juli 2024</div>
-          </div>
--->
-          <!-- Blog Post 5 
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              JGP begreep precies wat we nodig hadden voor ISO 50001 compliance. Hun praktische aanpak maakte een complex proces behapbaar.
+            <h3 class="tm-blog-title">Dashboard dat wel wordt gebruikt: 5 ontwerpprincipes</h3>
+            <p class="tm-blog-excerpt">Van KPI-hierarchie tot alerts die teams activeren - zonder ruis.</p>
+            <div class="tm-blog-footer">
+              <span>Leestijd 3 min</span>
+              <span>Focus: adoptie</span>
             </div>
-            <div class="tm-blog-author">Pieter de Vries</div>
-            <div class="tm-blog-role">Quality & Compliance Officer, EuroManufacturing</div>
-            <div class="tm-blog-project">Project: ISO 50001 Data Architectuur</div>
-            <div class="tm-blog-date">Juni 2024</div>
-          </div>
--->
-          <!-- Blog Post 6 
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              De Python scripts voor data validatie hebben ons enorm veel tijd bespaard en de kwaliteit van onze rapportages verhoogd.
+          </article>
+
+          <article class="tm-blog-card">
+            <div class="tm-blog-meta">
+              <span class="tm-blog-tag">Praktijkcase</span>
+              <time datetime="2025-09-12">12 september 2025</time>
             </div>
-            <div class="tm-blog-author">Anna Bakker</div>
-            <div class="tm-blog-role">Data Analyst, GreenEnergy Solutions</div>
-            <div class="tm-blog-project">Project: Data Validatie Automatisering</div>
-            <div class="tm-blog-date">Mei 2024</div>
-          </div>
--->
-          <!-- Blog Post 7 
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              Wat mij het meest opviel was de combinatie van technische expertise en begrip voor onze bedrijfsprocessen. Geen one-size-fits-all oplossing.
+            <h3 class="tm-blog-title">Quickscan die 3 prioriteiten opleverde in 48 uur</h3>
+            <p class="tm-blog-excerpt">Een compacte intake en datamap leidde direct tot gerichte verbeteracties.</p>
+            <div class="tm-blog-footer">
+              <span>Leestijd 2 min</span>
+              <span>Focus: quickscan</span>
             </div>
-            <div class="tm-blog-author">Robert Hendriks</div>
-            <div class="tm-blog-role">CFO, Metalworks International</div>
-            <div class="tm-blog-project">Project: Custom BI Dashboard</div>
-            <div class="tm-blog-date">April 2024</div>
-          </div>
--->
-          <!-- Blog Post 8 
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              De UiPath implementatie heeft onze maandelijkse energierapportage volledig geautomatiseerd. We besparen nu 20+ uren per maand.
+          </article>
+
+          <article class="tm-blog-card tm-blog-card--quote">
+            <div class="tm-blog-meta">
+              <span class="tm-blog-tag">Klantnotitie</span>
+              <time datetime="2025-08-20">20 augustus 2025</time>
             </div>
-            <div class="tm-blog-author">Emma Visser</div>
-            <div class="tm-blog-role">Process Manager, ChemicalPro BV</div>
-            <div class="tm-blog-project">Project: RPA voor Energy Reporting</div>
-            <div class="tm-blog-date">Maart 2024</div>
-          </div>
--->
-          <!-- Blog Post 9 
-          <div class="tm-blog-card">
+            <h3 class="tm-blog-title">"Eindelijk een versie van de waarheid."</h3>
             <div class="tm-blog-quote">
-              JGP's aanpak van "eerst begrijpen, dan bouwen" zorgde ervoor dat het eindproduct perfect aansloot bij onze behoeften. Geen aanpassingen achteraf nodig.
+              "De datakoppelingen en dashboards maken onze maandelijkse rapportage sneller en betrouwbaarder."
             </div>
-            <div class="tm-blog-author">Frank Mulder</div>
-            <div class="tm-blog-role">Plant Director, FoodProduction Group</div>
-            <div class="tm-blog-project">Project: Multi-site Energy Dashboard</div>
-            <div class="tm-blog-date">Februari 2024</div>
-          </div>
--->
-          <!-- Blog Post 10 
-          <div class="tm-blog-card">
-            <div class="tm-blog-quote">
-              De SQL database oplossing die JGP ontwikkelde, vormt nu de ruggengraat van onze energiedata infrastructuur. Schaalbaar en toekomstbestendig.
+            <div class="tm-blog-footer">
+              <span>Operations Manager</span>
+              <span>Focus: dashboards</span>
             </div>
-            <div class="tm-blog-author">Julia van Dijk</div>
-            <div class="tm-blog-role">IT Director, TransportHub Nederland</div>
-            <div class="tm-blog-project">Project: Centrale Energy Data Warehouse</div>
-            <div class="tm-blog-date">Januari 2024</div>
-          </div>
--->
+          </article>
         </div>
 
         <!-- Pagination Controls (Mobile Only) -->
         <div class="tm-blog-pagination">
-          <button id="prevPageNl" onclick="changePage(-1)">← Vorige</button>
+          <button id="prevPageNl" onclick="changePage(-1)">&larr; Vorige</button>
           <span class="tm-page-info">
-            <span id="currentPageNl">1</span> / <span id="totalPagesNl">4</span>
+            <span id="currentPageNl">1</span> / <span id="totalPagesNl">2</span>
           </span>
-          <button id="nextPageNl" onclick="changePage(1)">Volgende →</button>
+          <button id="nextPageNl" onclick="changePage(1)">Volgende &rarr;</button>
         </div>
       </div>
     </section>
@@ -653,11 +664,11 @@ https://www.tooplate.com/view/2117-infinite-loop
             <div class="text-center col-12">
                 <h2 class="tm-section-title text-left">Contact</h2>
                 <p class="tm-intro-text text-left">
-                  Heb je een vraag of wil je verkennen hoe we kunnen samenwerken? We bespreken graag je ideeën, uitdagingen of projecten.
-                  Neem direct contact op via een van de volgende opties!
+                  Wil je sparren over je energiedata, compliance of dashboards? Deel je uitdaging en ik kom snel terug met een concrete volgende stap.
+                  Gebruik het formulier of neem direct contact op.
                 </p><br>
             </div>
-<!--
+
             <div class="col-sm-12 col-md-6">
               <form action="https://n8n.jdhomelab.org/webhook/contact-form" method="post">
                 <label for="name" class="sr-only">Je Naam</label>
@@ -669,7 +680,7 @@ https://www.tooplate.com/view/2117-infinite-loop
                 <button type="submit" class="btn tm-btn-submit">Verzenden</button>
               </form>
             </div>
--->
+
 
             <div class="col-sm-12 col-md-6">
                 <div class="contact-item">
@@ -710,12 +721,13 @@ https://www.tooplate.com/view/2117-infinite-loop
       </div>
 
       	<footer class="text-center small tm-footer">
-          <p class="mb-0">
-          Copyright &copy; 2025 JGP Consultancy
+          <p class="mb-0">Copyright &copy; 2026 JGP Consultancy</p>
         </footer>
 
     </section>
     
+    </main>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
@@ -729,21 +741,6 @@ https://www.tooplate.com/view/2117-infinite-loop
      });
     </script>
 
-
-    <script>
-      $(document).ready(function(){
-        $('.tm-testimonials-carousel').slick({
-         autoplay: true,
-         autoplaySpeed: 3500, // 3 seconds
-         dots: true,          // small navigation dots
-         arrows: true,       // hide prev/next arrows
-         infinite: true,
-          slidesToShow: 2,     // show 1 testimonial at a time
-         slidesToScroll: 2,
-          adaptiveHeight: true
-        });
-      });
-    </script>
 
     <script>
 
@@ -812,8 +809,6 @@ https://www.tooplate.com/view/2117-infinite-loop
       $(function(){
         // Hero Section - Background Parallax
         background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);   
-        background_image_parallax_2($("#testimonials"), 0.80);   
         
         // Handle window resize
         window.addEventListener('resize', function(){
@@ -838,22 +833,23 @@ https://www.tooplate.com/view/2117-infinite-loop
         $('#tmNav').singlePageNav({
           'easing': 'easeInOutExpo',
           'speed': 600,
+          'offset': $('.tm-navbar').outerHeight() + 12,
+          'updateHash': false,
           'filter': ':not(.tm-language-toggle)'
         });
 
-        // Add smooth scrolling to all links
-        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
-        $("a:not(.tm-language-toggle)").on('click', function(event) {
-          if (this.hash !== "") {
+        // Smooth scroll for in-page links outside the main nav
+        $('a[href^=\"#\"]:not(.tm-language-toggle)').on('click', function(event){
+          if ($(this).closest('#tmNav').length) {
+            return;
+          }
+          var target = $(this).attr('href');
+          if (target && target.length > 1 && $(target).length) {
             event.preventDefault();
-            var hash = this.hash;
-
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 600, 'easeInOutExpo', function(){
-              window.location.hash = hash;
-            });
-          } // End if
+            var offset = $('.tm-navbar').outerHeight() + 12;
+            var top = $(target).offset().top - offset;
+            $('html, body').stop().animate({ scrollTop: top }, 600, 'easeInOutExpo');
+          }
         });
 
         // Pop up
@@ -863,34 +859,6 @@ https://www.tooplate.com/view/2117-infinite-loop
           gallery: { enabled: true }
         });
 
-        $('.tm-testimonials-carousel').slick({
-          dots: true,
-          prevArrow: false,
-          nextArrow: false,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2
-              }
-            }, 
-            {
-              breakpoint: 480,
-              settings: {
-                  slidesToShow: 1
-              }                 
-            }
-          ]
-        });
 
         // Gallery
         $('.tm-gallery').slick({
@@ -1108,6 +1076,3 @@ https://www.tooplate.com/view/2117-infinite-loop
   </body>
 
 </html>
-
-
-
